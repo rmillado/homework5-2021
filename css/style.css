@@ -64,6 +64,10 @@ nav a:hover{
   text-decoration: underline;
 }
 
+nav a:focus{
+  text-decoration: underline;
+}
+
 /*Req 3a*/
 .skip a{
   background: white;
@@ -163,8 +167,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  vertical-align: middle;
-  text-align: center;
+  align-items:center
 }
 
 
@@ -178,8 +181,8 @@ header{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
-    float: right;
     vertical-align: middle;
+    text-align: right;
   }
 
   /*Req 11*/
